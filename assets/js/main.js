@@ -59,9 +59,7 @@ const app = {
         this.flexSlide()
         setInterval(this.changeSlide, 3000)
         this.handleEvent()
-    }
-
-
+    }//
 }
 
 app.start()
