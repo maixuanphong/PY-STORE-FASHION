@@ -74,7 +74,7 @@
 }
 
 .header_menu_item-link:hover {
-    opacity: 0.6;
+    opacity: 0.4;
 }
 
 .header_menu_item-link::before {

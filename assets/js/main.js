@@ -5,9 +5,8 @@ const slideContainer = document.querySelector('.slide_container')
 let index = 0
 const lengthImgs = imgPositions.length
 const dotlist = $$('.dot-item')
-
 const header = $('.header')
-console.log(header)
+
 
 const app = {
     handleEvent() {
@@ -58,7 +57,7 @@ const app = {
 
     start: function() {
         this.flexSlide()
-        setInterval(this.changeSlide, 5000)
+        setInterval(this.changeSlide, 3000)
         this.handleEvent()
     }
 
